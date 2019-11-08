@@ -1,0 +1,12 @@
+prefix=/Users/qiongsiwu/workspace/temp/testlib/install
+exec_prefix=/Users/qiongsiwu/workspace/temp/testlib/install
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: testlib
+Description: trying out building .so with cmake
+Version: 1.0.1
+
+Requires:
+Libs: -L${libdir} -ltestlib
+Cflags: -I${includedir}

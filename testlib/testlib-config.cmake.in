@@ -1,0 +1,2 @@
+include("${CMAKE_INSTALL_PREFIX}/lib/testlib.cmake")
+set(TESTLIB_INCLUDE_DIR "${CMAKE_INSTALL_PREFIX}/include")
